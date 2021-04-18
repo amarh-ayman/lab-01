@@ -1,0 +1,75 @@
+@media (min-width: 480px) and (max-width: 768px) {
+  .container {
+    width: auto;
+    height: 100%;
+    margin: auto;
+    overflow: hidden;
+  }
+  .a {
+    height: 75px;
+  }
+  .b {
+    height: 150px;
+  }
+  .c,
+  .d {
+    height: 125px;
+  }
+  .cont02 {
+    overflow: hidden;
+  }
+  .e,
+  .f,
+  .g,
+  .h {
+    width: 50%;
+    height: 250px;
+    float: left;
+  }
+  .clear {
+    clear: both;
+  }
+  .i {
+    height: 80px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 960px) {
+  .a {
+    height: 100px;
+  }
+  .b {
+    width: 20%;
+    height: 600px;
+    background-color: brown;
+    float: left;
+  }
+  .cont01 {
+    width: 80%;
+    overflow: hidden;
+  }
+  .c,
+  .d {
+    width: 50%;
+    height: 200px;
+    float: right;
+  }
+  .cont02 {
+    width: 80%;
+    overflow: hidden;
+  }
+  .e,
+  .f,
+  .g,
+  .h {
+    float: left;
+    height: 250px;
+    width: 25%;
+  }
+
+  .i {
+    width: 80%;
+    height: 150px;
+    float: right;
+  }
+}
