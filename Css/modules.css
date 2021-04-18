@@ -1,7 +1,6 @@
 @media (min-width: 480px) and (max-width: 768px) {
   .container {
     width: auto;
-    height: 100%;
     margin: auto;
     overflow: hidden;
   }
@@ -34,14 +33,13 @@
   }
 }
 
-@media (min-width: 768px) and (max-width: 960px) {
+@media screen and (min-width: 960px) {
   .a {
     height: 100px;
   }
   .b {
     width: 20%;
     height: 600px;
-    background-color: brown;
     float: left;
   }
   .cont01 {
