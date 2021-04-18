@@ -1,0 +1,47 @@
+div {
+  background-color: transparent;
+  color: #4a4a4a;
+  border: 1px solid #4a4a4abe;
+  position: relative;
+  width: auto;
+}
+p {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container {
+  width: auto;
+  height: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+.a {
+  height: 75px;
+}
+.b {
+  height: 150px;
+}
+.c,
+.d {
+  height: 125px;
+}
+.cont02 {
+  overflow: hidden;
+}
+.e,
+.f,
+.g,
+.h {
+  width: 50%;
+  height: 250px;
+  float: left;
+}
+.clear {
+  clear: both;
+}
+.i {
+  height: 80px;
+}
