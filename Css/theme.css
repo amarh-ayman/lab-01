@@ -2,7 +2,7 @@ div {
   border: 1px solid #4a4a4abe;
 }
 
-@media (min-width: 768px) and (max-width: 960px) {
+@media screen and (min-width: 960px) {
   .container {
     background-color: rgb(126, 126, 223);
   }
@@ -10,5 +10,10 @@ div {
 @media (min-width: 480px) and (max-width: 768px) {
   .container {
     background-color: rgb(223, 135, 196);
+  }
+}
+@media (min-width: 768px) and (max-width: 960px) {
+  .container {
+    background-color: rgb(81, 199, 106);
   }
 }

@@ -13,9 +13,7 @@ p {
   transform: translate(-50%, -50%);
 }
 .container {
-  width: auto;
-  height: 100%;
-  margin: auto;
+  margin: 20px auto;
   overflow: hidden;
 }
 .a {
