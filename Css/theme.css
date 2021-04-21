@@ -5,7 +5,7 @@
   .container:after {
     content: 'Mobile';
     color: rgba(61, 61, 61, 0.222);
-    font-size: 150px;
+    font-size: 200px;
     font-weight: bolder;
     position: fixed;
     top: 50%;
