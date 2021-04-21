@@ -1,15 +1,47 @@
-div {
-  border: 1px solid #4a4a4abe;
-}
-
-@media screen and (min-width: 960px) {
+@media (max-width: 768px) {
   .container {
-    background-color: rgb(126, 126, 223);
+    background-color: rgb(226, 114, 114);
+  }
+  .container:after {
+    content: 'Mobile';
+    color: rgba(61, 61, 61, 0.222);
+    font-size: 150px;
+    font-weight: bolder;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-20deg);
   }
 }
 
 @media (min-width: 768px) and (max-width: 960px) {
   .container {
     background-color: rgb(81, 199, 106);
+  }
+  .container::before {
+    content: 'Tablet';
+    color: rgba(61, 61, 61, 0.222);
+    font-size: 300px;
+    font-weight: bolder;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-20deg);
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .container {
+    background-color: rgb(126, 126, 223);
+  }
+  .container:after {
+    content: 'Windows';
+    color: rgba(2, 2, 49, 0.222);
+    font-size: 400px;
+    font-weight: bolder;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-20deg);
   }
 }
